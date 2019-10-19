@@ -10,7 +10,6 @@ const throttle = (fn:any, t:number) => {
 }
 //计算距离
 const distance = (p1:any,p2:any) => {
-  // console.log(p1.x - p2.x, p1.y - p2.y);
   return (Math.abs(p1.x - p2.x) > 8 || Math.abs(p1.y - p2.y) > 8)
 }
 
